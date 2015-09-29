@@ -86,6 +86,9 @@ public class BouncingBallView extends View {
                     mPaddle.setLocation(x - PADDLE_WIDTH / 2, getHeight() - PADDLE_OFFSET_BOTTOM);
                 }
                 break;
+
+            default:
+                break;
         }
 
         return true;
